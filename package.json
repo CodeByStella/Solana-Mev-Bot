@@ -1,0 +1,37 @@
+{
+  "name": "solana-mev-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Solana",
+    "mev",
+    "bot"
+  ],
+  "author": "Stella Ray",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.13.10",
+    "axios": "^1.8.3",
+    "bs58": "^6.0.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.5.0",
+    "open": "^8.4.2",
+    "qrcode": "^1.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "nodemon": "^3.1.9"
+  }
+}
